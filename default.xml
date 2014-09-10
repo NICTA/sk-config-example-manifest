@@ -53,13 +53,13 @@ remote="seL4"
 <project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
 
 <project name="sk-config.git" path="tools/sk-capdl"
-         remote="here" revision="adanis-channels">
+         remote="here">
   <linkfile src="libskc" dest="libs/libskc"/>
   <linkfile src="libsk" dest="libs/libsk"/>
 </project>
 
 <project name="sk-config-example.git" path="projects/sk-config-example"
-         remote="here" revision="adanis-channels">
+         remote="here">
   <linkfile src="Kbuild" dest="Kbuild"/>
   <linkfile src="Kconfig" dest="Kconfig"/>
   <linkfile src="Makefile" dest="Makefile"/>
