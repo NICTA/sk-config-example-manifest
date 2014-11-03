@@ -50,7 +50,7 @@ remote="seL4"
   <linkfile src="libsel4" dest="libs/libsel4"/>
 </project>
 
-<project name="capdl-loader-app.git" path="apps/capdl-loader-experimental"/>
+<project name="capdl-loader-app.git" path="apps/capdl-loader-experimental" revision="e17ad568a939e5792990d99a045aff74b5505704"/>
 
 <project name="sk-config.git" path="tools/sk-capdl"
          remote="here">
