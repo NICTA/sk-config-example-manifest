@@ -66,6 +66,7 @@ remote="seL4"
   <linkfile src="configs" dest="configs"/>
   <linkfile src="apps/cell1" dest="apps/cell1"/>
   <linkfile src="apps/cell2" dest="apps/cell2"/>
+  <linkfile src="apps/cell3" dest="apps/cell3"/>
   <linkfile src="apps/sk-example.xml" dest="apps/sk-example.xml"/>
 </project>
 
