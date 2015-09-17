@@ -28,25 +28,25 @@ remote="seL4"
 />
 
 
-<project name="common-tool.git" path="tools/common"/>
-<project name="kbuild-tool.git" path="tools/kbuild"/>
-<project name="elfloader-tool.git" path="tools/elfloader"/>
-<project name="capDL-tool.git" path="tools/capDL"/>
+<project name="common-tool.git" path="tools/common" revision="e3e9ab4f50b1f1c9f37afd814fc160ab5db9d37c"/>
+<project name="kbuild-tool.git" path="tools/kbuild" revision="820f7efb4fbceeb1d0223f48f34dacfe8378cfdb"/>
+<project name="elfloader-tool.git" path="tools/elfloader" revision="9536f5c47c7d000bef677c96ff2affceb8906e3f"/>
+<project name="capDL-tool.git" path="tools/capDL" revision="941c3d7d6df08213a06b5a08b77655a4618f58a5"/>
 
-<project name="libmuslc.git" path="libs/libmuslc"/>
-<project name="libsel4muslcsys.git" path="libs/libsel4muslcsys"/>
-<project name="libsel4platsupport.git" path="libs/libsel4platsupport"/>
-<project name="libsel4vka.git" path="libs/libsel4vka"/>
-<project name="libsel4vspace.git" path="libs/libsel4vspace"/>
-<project name="libsel4utils.git" path="libs/libsel4utils"/>
-<project name="libcpio.git" path="libs/libcpio"/>
-<project name="libelf.git" path="libs/libelf"/>
-<project name="libsel4simple.git" path="libs/libsel4simple"/>
-<project name="libsel4simple-default.git" path="libs/libsel4simple-default"/>
-<project name="libplatsupport.git" path="libs/libplatsupport"/>
-<project name="libutils.git" path="libs/libutils"/>
+<project name="libmuslc.git" path="libs/libmuslc" revision="a576a98790b9280564daf0ca2defe98c67b6f48c"/>
+<project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="ffdf5734b2d0df46886665093a637325a890b29e"/>
+<project name="libsel4platsupport.git" path="libs/libsel4platsupport" revision="637f3a62e8879dcd37e94e3b57209fd34c888ace"/>
+<project name="libsel4vka.git" path="libs/libsel4vka" revision="cad2a21146a1678a1133f84f935ea685a1a0e443"/>
+<project name="libsel4vspace.git" path="libs/libsel4vspace" revision="742bd59cd2bff3eaa4d0d12aa4a01d1b0d873707"/>
+<project name="libsel4utils.git" path="libs/libsel4utils" revision="0b6b9e45ccb5167cb80cd418c92ed8164e83d8e5"/>
+<project name="libcpio.git" path="libs/libcpio" revision="fb50b5f4e0eedf1da877989a7a22b38ee3e77f4d"/>
+<project name="libelf.git" path="libs/libelf" revision="34b957883b281e6b32f2fa5bb19198306a77dda7"/>
+<project name="libsel4simple.git" path="libs/libsel4simple" revision="7f60b9be2673520ec71a5c270a7726286a5f93d0"/>
+<project name="libsel4simple-default.git" path="libs/libsel4simple-default" revision="e3c4fd27fb3d675fefe4aa32274c7f1c48e7d4a2"/>
+<project name="libplatsupport.git" path="libs/libplatsupport" revision="e47212de776820151b4bc386feab96a87bb5cbd4"/>
+<project name="libutils.git" path="libs/libutils" revision="ba539f54c9cfe11afe3494f1a56e7f8dadcdde02"/>
 
-<project name="seL4.git" path="kernel">
+<project name="seL4.git" path="kernel" revision="1d51025fe8ec761df780bc223e59ad47768f0464">
   <linkfile src="libsel4" dest="libs/libsel4"/>
 </project>
 
